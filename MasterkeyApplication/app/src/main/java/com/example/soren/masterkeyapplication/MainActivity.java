@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
         // If correct PW was entered, then the Master Key will be shown.
         EditText pwPrompt = (EditText) findViewById(R.id.enterPW);
         String text = String.valueOf(pwPrompt.getText());
-        if (text.equals("PWception")) {
+        if (text.equals("####")) {
             TextView prompt = (TextView) findViewById(R.id.info_text);
-            prompt.setText("8E@Y2drg^74-z\\>g"); // Show password for Master Key application.
+            prompt.setText("####"); // Show password for Master Key application.
             // Check if no view has focus: Hides soft keyboard.
             View cView = this.getCurrentFocus();
             if (cView != null) {

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Masterkey Accessory - KeePass 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="descText_resc">App to use with KeePass 2.0, stores Masterkey. Extract Masterkey by typing in password associated with it.</string>
+    <string name="pw_resc">Enter password</string>
+    <string name="button_resc">Send</string>
+</resources>

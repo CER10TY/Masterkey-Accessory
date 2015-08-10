@@ -7,3 +7,6 @@ There's no time limit, so it's recommended to reset (accessible at the top right
 
 This app isn't guaranteed to work below Android 4.4, but you're welcome to try. Right now I won't include an .apk since you need to change your desired password and the Masterkey password in MainActivity.java anyway.
 I'm working on including configuration at the start though. Once that's in I'll probably get an .apk in aswell.
+
+Get the latest version of KeePass here:
+http://keepass.info/

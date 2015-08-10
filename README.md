@@ -10,3 +10,16 @@ This app is not guaranteed to work below Android 4.4 (KitKat). Currently, there'
 Get the latest version of KeePass here:
 http://keepass.info/
 
+## Version Control
+
+### 0.3
+- It is now possible to save the masterkey and password to a SharedPref file.
+- Prompt now shows if Settings have been properly imported.
+- TODO: Remove manual import and do it on startup instead. Might as well make full use of SharedPref and not use finish() on the ConfigActivity.
+
+### 0.2
+- Added Settings window, to manually configure a masterkey and password.
+
+### 0.1
+
+- Initial Commit

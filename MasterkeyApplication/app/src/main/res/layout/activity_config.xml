@@ -45,4 +45,13 @@
         android:hint="@string/settings_pw_prompt"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_import"
+        android:id="@+id/btn_import_settings"
+        android:layout_below="@+id/btn_save_settings"
+        android:layout_centerHorizontal="true"
+        android:onClick="import_settings"/>
 </RelativeLayout>

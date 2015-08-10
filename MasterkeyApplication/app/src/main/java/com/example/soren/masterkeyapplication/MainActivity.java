@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == ConfigActivity.RESULT_OK) {
                     masterkey = data.getStringExtra("master");
                     securitypw = data.getStringExtra("security");
+                    TextView prompt = (TextView) findViewById(R.id.info_text);
+                    prompt.setText("Settings imported!");
                 }
                 break;
             }

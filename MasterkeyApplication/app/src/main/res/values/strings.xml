@@ -9,8 +9,9 @@
     <string name="button_resc">Send</string>
     <string name="app_config">Configuration</string>
     <string name="title_activity_config">Settings</string>
-    <string name="setting_desc_str">This is the Settings screen. Here, you can configure the Master password, as well as the password you\'d like to use for confirmation.</string>
-    <string name="btn_save_settings">Save Settings</string>
+    <string name="setting_desc_str">This is the Settings screen. Here, you can configure the Master password, as well as the password you\'d like to use for confirmation. </string>
+    <string name="btn_save_settings">Export/Save Settings</string>
     <string name="settings_key_prompt">Enter masterkey</string>
     <string name="settings_pw_prompt">Enter security PW</string>
+    <string name="settings_import">Import Settings</string>
 </resources>
